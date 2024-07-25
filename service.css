@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 2000vh; */
+    background-color: #000000!important;
+    font-family: "Chakra Petch", sans-serif;
+   
+
+}
+/* navbar start here */
+
+
+.top-navbar{
+    background-color: #000000;
+}
+.nav-item img{
+    transition: 5s;
+    display: none;
+}
+.nav-item:hover img{
+    display: block;
+}
+
+.nav-link{
+    
+    font-family: "Chakra Petch", sans-serif;
+      padding: 0px 10px;
+      margin-right: 40px;
+      font-size: 14px;
+      font-weight: 600;
+  }
+ 
+  
+  .navbar{
+     
+      padding: 0 !important;
+  }
+  .navbar a{
+      
+    font-family: "Chakra Petch", sans-serif;
+        color:#fcf8f5 !important;
+      /* color: #fff */
+      background: transparent;
+     
+     
+  }
+   
+.navbar-link {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: var(--fs-5);
+    color:#ef7e1a;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: var(--transition);
+}
+li {
+    list-style: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top:5px;
+   
+    z-index: 4;
+}
+a{
+    text-decoration: none !important;
+    color: #ffff !important;
+}
+.button-one{
+    padding: 18px 36px;
+    color: #111010!important;
+    border:1px solid #0f0f0e!important;
+  background-color: #ef7e1a !important;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Chakra Petch", sans-serif;
+  line-height: 1.9rem;
+  font-weight: 800px;
+  transition: .5s!important;
+  
+}
+.button-one:hover{
+    transform: translateY(-10px)!important;
+    font-family: "Chakra Petch", sans-serif;
+    color: #ef7e1a!important;
+    background-color: #161513 !important;
+    border: 2px solid #ef7e1a!important;
+}
+.navbar-brand {
+    width: 10%;
+  }
+  
+/* navbar end here */
+
+/* banner css starrt here */
+.banner{
+    background-color: #2C3333;
+    height: 500px;
+    width: 100%;
+    
+}
+
+ .banner h1{
+    color: #fff;
+    margin-top: 40%;
+    font-family: "Chakra Petch", sans-serif;
+
+ }
+ .banner h3{
+    color: #f7f3ef;
+    font-family: "Chakra Petch", sans-serif;
+    }
+    .banner span{
+        color: #ef7e1a;
+        font-family: "Chakra Petch", sans-serif;
+    }
+
+ .banner img{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 30%;
+    position: absolute;
+    overflow: hidden;
+    
+ }
+ 
+
+ 
+
+/* banner css end here */
+
+
+/* about css start here */
+
+.about-banner h4{
+    color: #fff;
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-top: 40px;
+
+}
+
+.about-banner span{
+    color: #ef7e1a;
+}
+.about-banner img{
+    margin-top: 40px;
+    border: 2px solid #ef7e1a;
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
+    height: 50%;
+}
+
+.about-text h2{
+   color: #fff;
+    font-size: 40px;
+    font-family: "Chakra Petch", sans-serif;
+   
+}
+.about-text p{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Chakra Petch", sans-serif;
+   
+}
+.about-text{
+    margin-top: 60px;
+    color: #fff;
+    padding-right: 10%;
+    font-family: "Chakra Petch", sans-serif;
+   
+}
+
+.about-text h4{
+    font-size: 60px;
+}
+
+
+.aboutbtn-link{
+
+    border: 2px solid #fff;
+    background-color: #ef7e1a;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/* about css end here */
+
+
+
+
+
+/* our mission start */
+.about-card h5{
+    margin-top: 8%;
+    color: #ef7e1a;
+    font-size: 60px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.card-icon{
+    margin-top: 50px;
+   padding-bottom: 19%;
+   margin-bottom: 30%;
+   
+    border: 2px solid #ef7e1a!important;
+    padding: 30px 20px;
+    margin-bottom: 20%;
+    border-radius: 10px;
+    background-color: #000000!important;
+}
+
+
+.card-text h6{
+    font-size: 28px;
+    padding-top: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: "Chakra Petch", sans-serif;
+}
+.card-text p{
+    font-size: 18px;
+    text-align: center;
+    color: #f0e9e4;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+
+about-card h5{
+    margin-top: 8%;
+    color: #ef7e1a;
+    font-size: 60px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.card-icon{
+    margin-top: 50px;
+   padding-bottom: 19%;
+   padding: 30px 20px;
+   min-height: 525px;
+   background-color: #000000!important;
+}
+
+
+.card-text h6{
+    font-size: 28px;
+    padding-top: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: "Chakra Petch", sans-serif;
+}
+.card-text p{
+    font-size: 18px;
+    text-align: center;
+    color: #f0e9e4;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.what{
+  
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #45cc2b;
+}
+.info-text{
+    margin-top: 10%;
+    background-color: #2C3333!important;
+    
+    
+}
+.info{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #ef7e1a!important;
+    font-size: 26px;
+    font-family: "Chakra Petch", sans-serif;
+}
+.what{
+    margin-top: 42%;
+    margin-bottom: 10%;
+   
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.info span{
+    color: #ef7e1a;
+}
+
+
+/* our mission end */
+
+
+
+
+
+
+/* footer-start here */
+.footer{
+    padding: 50px 0px;
+    position: relative;
+}
+
+    .footer-img {
+        width: 347px;
+        left: -2%;
+        top: 40%;
+    position: absolute;
+    animation: car-move 5s infinite linear;
+}
+.footer-img img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-about-us{
+    margin-top: 20px;
+    }
+    
+    .footer-about-us h3{
+        margin-top: 10px;
+    }
+    .footer-about-us p{
+        font-size: 13px;
+        text-align: justify;
+    }
+    .links{
+        margin-top: 200px;
+        font-family: "Chakra Petch", sans-serif;
+    }
+    .links h3{
+       color: #ef7e1a;
+    }
+    .links ul{
+        margin-top: 20px;
+        padding-left: -0px;
+      
+    }
+    
+    .links ul li {
+      list-style: none;
+      font-family: "Chakra Petch", sans-serif;
+    
+    }
+    .links ul li a{
+        transition: .5s;
+        font-family: "Chakra Petch", sans-serif;
+        text-decoration: none;
+        color:#ef7e1a;
+        
+    }
+    .links  ul li:hover a{
+        letter-spacing: 1px;
+        color: #ef7e1a!important;
+        font-family: "Chakra Petch", sans-serif;
+    }
+/* footer-end here */
+.icons-01 {
+    margin-bottom: -50px;
+    width: 100%;
+}
+.icons{
+    background-color:#ef7e1a!important;
+}
+.b-foot{
+    color: #fff;
+}
+
+.b-foot p{
+    padding-top: 10px;
+}
+.all-icons{
+    word-spacing: 20px;
+    padding-top: 10px;
+}
+.all-icons a{
+    color: #fff;
+}
+
+
+.hamburger {
+    cursor: pointer;
+  }
+  
+  .hamburger input {
+    display: none;
+  }
+  
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height:25px;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .line {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+  
+  .hamburger input:checked + svg {
+    transform: rotate(-45deg);
+  }
+  
+  .hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+  
+
+  @media screen and (min-width:991) and ( max-width:1232px){
+     /* responsive footer start */
+        .footer-img {
+            width: 347px;
+            left: -2%;
+            top: 40%;
+     }
+    .footer {
+        padding: 0px 0px 10px;
+        position: relative;
+    }
+    .links {
+        margin-top: 24px;
+        font-family: "Chakra Petch", sans-serif;
+    }
+    .links ul li a {
+        font-size: 14px;
+    }
+    .b-foot p {
+        font-size: 12px;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .b-foot {
+        text-align: center;
+        color: #fff !important;
+
+/* responsive footer end */
+/* responsive  chat now start */
+
+.what{
+    margin-top: 12%;
+}
+.info{
+    margin-top: -15%;
+    font-size: 21px;
+    margin-left: 49%;
+}
+
+.info-text {
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+/* responsive  chat now end */
+
+/* responsive  card start */
+.about-card h5{
+    font-size: 41px;
+}
+.card-icon{
+    margin-top: 20px;
+    max-height: 50%;
+   
+}
+.card-text h6 {
+    font-size: 28px;
+    color: #ef7e1a;
+}
+.card-text p {
+    font-size: 18px;
+}
+/* responsive card end */
+
+/* responsive banner start */
+.banner h1{
+ margin-top: 33%;
+ margin-left: 6%;
+}
+
+.banner h3{
+   
+    margin-left: 6%;
+   }
+
+.banner img {
+    margin-left: 45%;
+    margin-top: -18%;
+    width: 40%;
+}
+
+/* responsive banner end*/
+
+/* responsive navbar start*/
+.button-one {
+    padding: 10px 15px !important;
+    font-size: 12px;
+}
+/* responsive navbar end*/
+
+
+  }
+}
+
+
+  
+
+
+
+
+
+
+@media screen and (min-width:770px) and ( max-width:991px){
+    
+    /* responsive footer start */
+    .footer-img{
+        display:none;
+    }
+    .footer {
+        padding: 0px 0px 10px;
+        position: relative;
+    }
+    .links {
+        margin-top: 24px;
+        font-family: "Chakra Petch", sans-serif;
+    }
+    .links ul li a {
+        font-size: 14px;
+    }
+    .b-foot p {
+        font-size: 12px;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .b-foot {
+        text-align: center;
+        color: #fff;
+    }
+
+/* responsive footer end */
+/* responsive  chat now start */
+
+.what{
+    margin-top: 12%;
+}
+.info{
+    margin-top: -15%;
+    font-size: 21px;
+    margin-left: 49%;
+}
+
+.info-text {
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+/* responsive  chat now end */
+
+/* responsive  card start */
+.about-card h5{
+    font-size: 41px;
+}
+.card-icon{
+    margin-top: 20px;
+   
+}
+.card-text h6 {
+    font-size: 28px;
+    color: #ef7e1a;
+}
+.card-text p {
+    font-size: 18px;
+}
+/* responsive card end */
+
+/* responsive banner start */
+.banner h1{
+ margin-top: 33%;
+ margin-left: 6%;
+}
+
+.banner h3{
+   
+    margin-left: 6%;
+   }
+
+.banner img {
+    margin-left: 47%;
+    margin-top: -21%;
+    width: 40%;
+}
+
+/* responsive banner end*/
+
+/* responsive navbar start*/
+.button-one {
+    padding: 10px 15px !important;
+    font-size: 12px;
+}
+/* responsive navbar end*/
+
+
+}
+
+
+
+
+@media screen and (min-width:421px) and ( max-width:769px){
+
+
+    /* responsive footer start */
+    .footer-img{
+        display:none;
+    }
+    .footer {
+        padding: 0px 0px 10px;
+        position: relative;
+    }
+    .links {
+        margin-top: 10px;
+        font-family: "Chakra Petch", sans-serif;
+    }
+    .links ul li a {
+        font-size: 14px;
+    }
+    .b-foot p {
+        font-size: 12px;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .b-foot {
+        text-align: center;
+        color: #fff;
+    }
+
+/* responsive footer end */
+/* responsive  chat now start */
+
+.what{
+    margin-top: 12%;
+}
+.info{
+    margin-top: -4%;
+    font-size: 21px;
+}
+
+.info-text {
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+/* responsive  chat now end */
+
+/* responsive  card start */
+.about-card h5{
+    font-size: 41px;
+}
+.card-icon{
+    margin-top: 20px;
+    margin-left: 39px;
+}
+.card-text h6 {
+    font-size: 24px;
+    color: #ef7e1a;
+}
+.card-text p {
+    font-size: 16px;
+}
+/* responsive card end */
+
+/* responsive banner start */
+.banner h1{
+ margin-top: 33%;
+ margin-left: 6%;
+}
+
+.banner h3{
+   
+    margin-left: 6%;
+   }
+
+.banner img {
+    margin-left: 41%;
+    margin-top: -17%;
+    width: 40%;
+}
+
+/* responsive banner end*/
+
+/* responsive navbar start*/
+.button-one {
+    padding: 10px 15px !important;
+    font-size: 12px;
+}
+/* responsive navbar end*/
+
+}
+
+
+
+
+
+@media screen and (max-width:420px){
+
+    /* responsive footer start */
+    .footer-img{
+        display:none;
+        left: 3%;
+       top: 1%;
+       width: 359px;
+    }
+    .footer {
+        padding: 0px 0px 10px;
+        position: relative;
+    }
+
+    .links {
+        margin-top: 10px;
+        font-family: "Chakra Petch", sans-serif;
+    }
+    .links ul li a {
+        font-size: 14px;
+    }
+    .b-foot p {
+        font-size: 12px;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .b-foot {
+        text-align: center;
+        color: #fff;
+    }
+
+/* responsive footer end */
+/* responsive  chat now start */
+
+.what{
+    margin-top: 12%;
+}
+.info{
+    margin-top: -4%;
+    font-size: 21px;
+}
+
+.info-text {
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+/* responsive  chat now end */
+
+/* responsive  card start */
+.about-card h5{
+    font-size: 41px;
+}
+.card-icon{
+    margin-top: 20px;
+    
+}
+.card-text h6 {
+    font-size: 24px;
+}
+.card-text p {
+    font-size: 15px;
+}
+/* responsive card end */
+
+/* responsive banner start */
+.banner h1{
+ margin-top: 24%;
+ margin-left: 31%;
+}
+
+.banner h3{
+   
+    margin-left: 25%;
+   }
+
+.banner img {
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 60%;
+}
+
+/* responsive banner end*/
+
+/* responsive navbar start*/
+.button-one {
+    padding: 10px 15px !important;
+    font-size: 12px;
+}
+.navbar-collapse {
+    padding-bottom: 50px;
+}
+.button-one {
+    padding: 10px 15px !important;
+    font-size: 12px;
+}
+
+/* responsive navbar end*/
+
+}
+
